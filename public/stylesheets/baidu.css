@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+.clearfix:after,
+.clearfix:before{content: '';display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.head{
+    margin: 5px;
+}
+.head a{
+    color: #333;
+    text-decoration: underline;
+}
+.head a:hover{
+    color: purple;
+}
+.nav{
+    float: right;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.nav li{
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.nav .teshu{
+    width: 60px;
+    padding: 0;
+    line-height: 23px;
+    margin-top: 8px;
+    text-align: center;
+    background: #38f;
+    height: 23px;
+}
+.banner a{
+    display: block;
+    text-align: center;
+}
+.banner img{
+    width: 270px;
+    height: 129px;
+    margin-bottom: 20px;
+}
+.search{
+    overflow: hidden;
+    text-align: center;
+}
+.text{
+    width: 540px;
+    height: 34px;
+    padding-left: 10px;
+    background: url("/images/xiaoxiangji.jpg") no-repeat 98%;
+    border: 1px solid #dddddd;
+}
+.btn{
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    background: #3385ff;
+    font-size: 15px;
+    border: 0;
+    border-bottom:1px solid #2d78f4;
+    cursor: pointer;
+}
+.erweima{
+    padding-top: 150px;
+    text-align: center;
+}
+.erweima img{
+    margin-bottom: 5px;
+}
+.erweima a{
+    color: #666;
+    font-weight:700;
+    font-size: 13px;
+}
+.foot{
+    width: 530px;
+    height: 22px;
+    margin: 0 auto;
+}
+.foot li{
+    float: left;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0 30px;
+}
+.foot li a,.cp a{
+    text-decoration: underline;
+    color: #666;
+}
+.cp{
+    width: 580px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    margin: 0 auto;
+    color: #999;
+}
+.cp a:last-of-type{
+    padding-left: 19px;
+    text-decoration: underline;
+}
+.cp img{
+    vertical-align: middle;
+    padding-left: 2px;
+}
